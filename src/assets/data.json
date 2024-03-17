@@ -1,0 +1,126 @@
+[
+    [
+        {
+            "pizzaName": "Margherita",
+            "price": 9,
+            "ingredients": ["Tomato", "Mozzarella", "Oregano"],
+            "image": "pizza8.webp"
+        },
+        {
+            "pizzaName": "American",
+            "price": 10,
+            "ingredients": ["Tomato", "Mozzarella", "Pepperoni" ],
+            "image": "pizzaPepperoni.webp"
+        },
+        {
+            "pizzaName": "Bacon",
+            "price": 12,
+            "ingredients": ["Tomato", "Mozzarella", "Bacon", "Plum tomatoes", "Red onion"],
+            "image": "pizza9.png"
+        },
+        {
+            "pizzaName": "4 seasons",
+            "price": 10,
+            "ingredients": ["Tomato", "Mozzarella", "Pepperoni", "Mushrooms", "Olives", "Red onion", "Basil"],
+            "image": "pizza2.webp"
+        },
+        {
+            "pizzaName": "Mushrooms",
+            "price": 12,
+            "ingredients": ["Tomato", "Mozarella", "Mushrooms", "Plum tomatoes", "Red onion", "Basil"],
+            "image": "pizza7.webp"
+        },
+        {
+            "pizzaName": "Chicken Mushrooms",
+            "price": 10,
+            "ingredients": ["Tomato", "Mozarella", "Chicken", "Mushrooms", "Plum tomatoes", "Red onion", "Olives", "Basil"],
+            "image": "pizza3.webp"
+        },
+        {
+            "pizzaName": "Proscuitto",
+            "price": 12,
+            "ingredients": ["Cream", "Parmesan", "Proscuitto"],
+            "image": "pizza6.webp"
+        },
+        {
+            "pizzaName": "Garlic",
+            "price": 12,
+            "ingredients": ["Cream", "Garlic", "Mozarella", "Oregano"],
+            "image": "pizza4.webp"
+        },
+        {
+            "pizzaName": "Truffe",
+            "price": 15,
+            "ingredients": ["Cream", "Mozarella", "Truffe", "Truffe oil", "Proscuitto"],
+            "image": "pizza5.webp"
+        }
+    ],
+    [
+        [
+            {
+                "ingredientName": "Tomato",
+                "price": 0
+            },
+            {
+                "ingredientName": "Cream",
+                "price": 0
+            }
+        ],
+        [
+            {
+                "ingredientName": "Mozarella",
+                "price": 2
+            },
+            {
+                "ingredientName": "Parmesan",
+                "price": 3
+            },
+            {
+                "ingredientName": "Raclette",
+                "price": 3
+            }
+
+        ],
+        [
+            {
+                "ingredientName": "Pepperoni",
+                "price": 3
+            },
+            {
+                "ingredientName": "Chicken",
+                "price": 4
+            },
+            {
+                "ingredientName": "Bacon",
+                "price": 2
+            },
+            {
+                "ingredientName": "Proscuitto",
+                "price": 5
+            }
+        ],
+        [
+
+            {
+                "ingredientName": "Plum tomatoes",
+                "price": 2
+            },
+            {
+                "ingredientName": "Pesto",
+                "price": 3
+            },
+            {
+                "ingredientName": "Truffe",
+                "price": 5
+            },
+            {
+                "ingredientName": "Truffe oil",
+                "price": 2
+            },
+            {
+                "ingredientName": "Potatoes",
+                "price": 2
+            }
+        ]
+    ]  
+]
