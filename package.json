@@ -2,7 +2,7 @@
   "name": "k3s-pizza",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://julesvoiturier.github.io/pizzadimama/",
+  "homepage": "https://julesvoiturier.github.io/pizzadimama/Home",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
