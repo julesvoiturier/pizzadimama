@@ -1,10 +1,11 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { useDispatch, useSelector } from "react-redux"
 import { cartToggle } from "../features/toggle/toggleSlice"
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Nav = () => {
 
+    const navigate = useNavigate()
     const dispatch = useDispatch()
     const lastAdded = useSelector((state) => state.cart.lastTwoAdded)
     const openCart = useSelector((state) => state.toggle.cartToggle)
@@ -17,6 +18,10 @@ const Nav = () => {
           behavior: 'smooth',
         }) 
     }
+
+    useEffect(() => {
+        navigate('/pizzadimama/Home')
+    }, []);
 
 
     return (
