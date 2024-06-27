@@ -20,19 +20,19 @@ import DIY from './components/DIY.jsx'
 
 const router = createBrowserRouter([
   {
-    path: "/Home",
+    path: "/pizzadimama",
     element: <Layout><Home/></Layout>,
     children: [
       {
-        path: "/Home",
+        path: "/pizzadimama/Home",
         element: <Home/>
       },
       {
-        path: "/Home/PizzaDetails/:id",
+        path: "/pizzadimama/PizzaDetails/:id",
         element: <PizzaDetails/>
       },
       {
-        path: "/Home/MakeYourPizza",
+        path: "/pizzadimama/MakeYourPizza",
         element: <DIY/>
       },
     ]

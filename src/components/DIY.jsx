@@ -59,7 +59,7 @@ const DIY = () => {
 
     return (
         <div onClick={()=> openCart == true ? dispatch(cartToggle()) : ""} className={`${openCart == true ? `brightness-[30%]` : `brightness-[100%]`} pt-[70px] h-screen bg-[#eeebeb] flex flex-col gap-10 justify-center items-center`}>
-            <Link onClick={()=> scrollToTop()} to={`/Home`} className={`${openCart == true ? `pointer-events-none` : ``} bg-yellow-300 top-[100px] left-[30px] fixed px-6 py-2 font-bold rounded-md`}>Close</Link>
+            <Link onClick={()=> scrollToTop()} to={`/pizzadimama/Home`} className={`${openCart == true ? `pointer-events-none` : ``} bg-yellow-300 top-[100px] left-[30px] fixed px-6 py-2 font-bold rounded-md`}>Close</Link>
             <div className='flex flex-col items-center'>
                 <div className=' px-4 py-2 font-bold w-fit text-[#ff6146] text-[40px]'>Make your own pizza!</div>
                 <div className='font-bold mt-2 w-fit text-[18px]'>Select toppings:</div>

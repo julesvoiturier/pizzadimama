@@ -39,7 +39,7 @@ const PizzaCard = (props) => {
                                     }) : null
                                 }
                         </button>
-                        <Link to={`/Home/PizzaDetails/${props.currentKey}`} onClick={()=> scrollToTop()} className='w-[150px] px-4 py-2 bg-[#2d100b]  text-white rounded-md flex justify-center items-center'>Description</Link>
+                        <Link to={`/pizzadimama/PizzaDetails/${props.currentKey}`} onClick={()=> scrollToTop()} className='w-[150px] px-4 py-2 bg-[#2d100b]  text-white rounded-md flex justify-center items-center'>Description</Link>
                     </div>
                 </div>
             </div>
